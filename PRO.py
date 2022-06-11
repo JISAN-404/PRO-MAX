@@ -26,4 +26,4 @@ elif bit == "32bit":
  
         from MAX32 import __DARK__
  
-        buy()
+        __DARK__()
