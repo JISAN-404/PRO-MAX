@@ -16,14 +16,14 @@ bit = platform.architecture()[0]
  
 if bit == "64bit":
  
-        from MAX64 import buy
+        from MAX64 import __DARK__
  
-        buy()
+        __DARK__()
  
  
  
 elif bit == "32bit":
  
-        from MAX32 import buy
+        from MAX32 import __DARK__
  
         buy()
